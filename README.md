@@ -32,13 +32,22 @@ Finally, to set some sensible OS X preferences, run this script:
 
 Restart your Mac for all changes to take effect.
 
+## SSH and Git
+
+After finishing the steps above, you'll want to [generate a new SSH key](https://help.github.com/articles/generating-an-ssh-key/).
+
+Once that's done, [add your SSH key to GitHub](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/). Also set up remote login with
+[Brown's CS Department](https://cs.brown.edu/about/system/connecting/ssh/).
+
+Finally, for HTTPS clones of Git repositories, you'll want to [cache your password locally](https://help.github.com/articles/caching-your-github-password-in-git/).
+
 ## Updates
 
 When making updates, feel free to directly edit the dotfiles in your
 home directory. Since they're symlinked, they will edit the cloned repo.
 Every now and then commit your changes and push them up.
 
-If installing major packages (think `golang`, `rvm` etc.), make sure to
+If installing major packages (think `golang`, `nvm` etc.), make sure to
 add / update an install script to document it and make it reproducible in the future.
 
 ## Credits
