@@ -1,6 +1,10 @@
 # .gitconfig: settings for git
 # Source: @mathiasbynens
 
+[user]
+	name  = Athyuttam Reddy
+	email = athyuttamre@gmail.com
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
