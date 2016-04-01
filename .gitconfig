@@ -2,6 +2,8 @@
 # Source: @mathiasbynens
 
 [user]
+
+	# Set up git author name and email
 	name  = Athyuttam Reddy
 	email = athyuttamre@gmail.com
 
@@ -14,7 +16,7 @@
 
 	# Use custom `.gitignore` and `.gitattributes`
 	excludesfile = ~/.gitignore
-	attributesfile = ~/.gitattributes
+	# attributesfile = ~/.gitattributes # Commented out because we don't use an attributes file
 
 	# Treat spaces before tabs and all kinds of trailing whitespace as an error
 	# [default] trailing-space: looks for spaces at the end of a line
