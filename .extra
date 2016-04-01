@@ -5,3 +5,7 @@ eval "$(docker-machine env default)"
 
 # Load rbenv on start
 eval "$(rbenv init -)"
+
+# Load nvm on start
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm

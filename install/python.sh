@@ -5,5 +5,8 @@
 brew install python
 brew install python3
 
+# Upgrade pip
+pip install --upgrade pip
+
 # Install virtualenv
 pip install virtualenv
