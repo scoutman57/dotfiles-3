@@ -17,6 +17,7 @@ ln -sfv "$DOTFILES_DIR/.bash_prompt" ~
 ln -sfv "$DOTFILES_DIR/.bashrc" ~
 ln -sfv "$DOTFILES_DIR/.editorconfig" ~
 ln -sfv "$DOTFILES_DIR/.exports" ~
+ln -sfv "$DOTFILES_DIR/.gemrc" ~
 ln -sfv "$DOTFILES_DIR/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/.gitignore_global" ~
 ln -sfv "$DOTFILES_DIR/.hushlogin" ~
@@ -31,3 +32,5 @@ ln -sfv "$DOTFILES_DIR/.path" ~
 . "$DOTFILES_DIR/install/python.sh"
 . "$DOTFILES_DIR/install/node.sh"
 . "$DOTFILES_DIR/install/meteor.sh"
+. "$DOTFILES_DIR/install/docker.sh"
+. "$DOTFILES_DIR/install/heroku_toolbelt.sh"

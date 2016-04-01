@@ -1,0 +1,4 @@
+# .extra: any other commands you want to be sourced
+
+# Load Docker on start
+eval "$(docker-machine env default)"
