@@ -1,3 +1,6 @@
+# .inputrc: settings for typing in the shell
+# Source: @mathiasbynens
+
 # Make Tab autocomplete regardless of filename case
 set completion-ignore-case on
 

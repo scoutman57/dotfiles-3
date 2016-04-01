@@ -1,4 +1,5 @@
-### Basics ###
+# .aliases: alias long commands to shorter ones
+# Source: @mathiasbynens
 
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
