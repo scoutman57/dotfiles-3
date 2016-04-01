@@ -2,3 +2,6 @@
 
 # Load Docker on start
 eval "$(docker-machine env default)"
+
+# Load rbenv on start
+eval "$(rbenv init -)"

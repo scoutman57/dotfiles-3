@@ -1,5 +1,8 @@
 # .path: prepend locations to $PATH
 # Source: @webpro
 
+# Prepend rbenv to PATH
+export PATH="$HOME/.rbenv/bin:$PATH"
+
 # Prepend GNU Core Utils from brew
-is-executable brew && PATH="$(brew --prefix coreutils)/libexec/gnubin":$PATH
+export PATH=""$(brew --prefix coreutils)/libexec/gnubin":$PATH"

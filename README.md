@@ -24,6 +24,12 @@ fashion (i.e. re-running the script won't break things.)
 ~ $ source dotfiles/install.sh
 ```
 
+Finally, to set some sensible OS X preferences, run this script:
+
+```shell
+~ $ source dotfiles/osx/osx_defaults.sh
+```
+
 Restart your Mac for all changes to take effect.
 
 ## Updates
