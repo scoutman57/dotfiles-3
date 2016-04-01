@@ -1,4 +1,4 @@
-# .gitignore-global: a global OS X .gitignore
+# .gitignore_global: a global OS X .gitignore
 # Source: https://github.com/github/gitignore/tree/master/Global
 
 .DS_Store

@@ -1,1 +1,5 @@
 # .path: prepend locations to $PATH
+# Source: @webpro
+
+# Prepend GNU Core Utils from brew
+is-executable brew && PATH="$(brew --prefix coreutils)/libexec/gnubin":$PATH
