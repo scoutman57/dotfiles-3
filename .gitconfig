@@ -74,7 +74,13 @@
 
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
+
 [credential]
+
+  # Allow OS X Keychain to remember passwords
 	helper = osxkeychain
+
 [push]
+
+  # Use the Git 2.0 push behavior by default
 	default = simple
