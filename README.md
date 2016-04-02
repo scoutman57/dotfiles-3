@@ -24,6 +24,10 @@ fashion (i.e. re-running the script won't break things.)
 ~ $ source dotfiles/install.sh
 ```
 
+To make your Terminal look good at this point, double-click the
+`Solarized Dark xterm-256color.terminal` file to install the Solarized
+Dark theme. Open `Terminal > Preferences` and set this as the default.
+
 Finally, to set some sensible OS X preferences, run this script:
 
 ```shell
