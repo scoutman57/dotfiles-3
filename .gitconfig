@@ -15,7 +15,7 @@
 [core]
 
 	# Use custom `.gitignore` and `.gitattributes`
-	excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignore_global
 	# attributesfile = ~/.gitattributes # Commented out because we don't use an attributes file
 
 	# Treat spaces before tabs and all kinds of trailing whitespace as an error
@@ -74,3 +74,5 @@
 
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
+[credential]
+	helper = osxkeychain
