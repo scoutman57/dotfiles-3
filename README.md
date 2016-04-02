@@ -41,6 +41,10 @@ Once that's done, [add your SSH key to GitHub](https://help.github.com/articles/
 
 Finally, for HTTPS clones of Git repositories, you'll want to [cache your password locally](https://help.github.com/articles/caching-your-github-password-in-git/).
 
+## Atom
+
+Atom's settings are backed up using the `sync-settings` package. These are synced using [this Gist](https://gist.github.com/athyuttamre/197c6a12d73896ae87da0ef80495c33f).
+
 ## Updates
 
 When making updates, feel free to directly edit the dotfiles in your
