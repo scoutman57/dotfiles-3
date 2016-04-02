@@ -19,3 +19,7 @@ export LESS_TERMCAP_md="${yellow}";
 
 # Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
 export PYTHONIOENCODING='UTF-8';
+
+# Set up Go paths
+export GOPATH=$HOME/Work/go
+export GOROOT=/usr/local/opt/go/libexec

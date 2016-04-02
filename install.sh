@@ -24,7 +24,7 @@ ln -sfv "$DOTFILES_DIR/.hushlogin" ~
 ln -sfv "$DOTFILES_DIR/.inputrc" ~
 ln -sfv "$DOTFILES_DIR/.path" ~
 
-# Package managers & packages
+# Install CLIs
 . "$DOTFILES_DIR/install/brew.sh"
 . "$DOTFILES_DIR/install/bash.sh"
 . "$DOTFILES_DIR/install/golang.sh"
@@ -35,5 +35,5 @@ ln -sfv "$DOTFILES_DIR/.path" ~
 . "$DOTFILES_DIR/install/docker.sh"
 . "$DOTFILES_DIR/install/heroku_toolbelt.sh"
 
-# Apps
+# Install Apps
 . "$DOTFILES_DIR/install/brew-cask.sh"

@@ -5,7 +5,7 @@
 mkdir -p $HOME/Work/go
 mkdir -p $HOME/Work/go/src/github.com/athyuttamre
 
-# Setup paths
+# Setup paths; also checkout .exports and .path for permanent additions
 export GOPATH=$HOME/Work/go
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin

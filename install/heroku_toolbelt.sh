@@ -3,6 +3,3 @@
 
 # Install Heroku
 brew install heroku-toolbelt
-
-# Formula may not have the latest version, so update it
-heroku update

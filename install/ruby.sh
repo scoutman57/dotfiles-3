@@ -5,10 +5,13 @@
 
 # rbenv handles switching ruby versions
 # ruby-build is a rbenv plugin that lets rbenv install ruby versions
-brew install rbenv ruby-build rbenv-gem-rehash
+brew install rbenv ruby-build
 
 # Checkout .path and .extra for additions to $PATH and starting rbenv
-# when the shell loads up.
+# when the shell loads up. Also loading them here for the following
+# commands to work.
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 
 # Install Ruby
 rbenv install 2.2.3
