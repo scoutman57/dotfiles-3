@@ -33,7 +33,6 @@ ln -sfv "$DOTFILES_DIR/.path" ~
 . "$DOTFILES_DIR/install/python.sh"
 . "$DOTFILES_DIR/install/node.sh"
 . "$DOTFILES_DIR/install/meteor.sh"
-. "$DOTFILES_DIR/install/docker.sh"
 . "$DOTFILES_DIR/install/heroku_toolbelt.sh"
 
 # Install Apps
