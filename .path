@@ -7,6 +7,6 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 # Prepend GNU Core Utils from brew
 export PATH=""$(brew --prefix coreutils)/libexec/gnubin":$PATH"
 
-# Prepend Go binaries
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:$GOROOT/bin
+# Append Go binaries
+export PATH="$PATH:$GOPATH/bin"
+export PATH="$PATH:$GOROOT/bin"
