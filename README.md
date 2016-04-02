@@ -24,10 +24,6 @@ fashion (i.e. re-running the script won't break things.)
 ~ $ source dotfiles/install.sh
 ```
 
-To make your Terminal look good at this point, double-click the
-`Solarized Dark xterm-256color.terminal` file to install the Solarized
-Dark theme. Open `Terminal > Preferences` and set this as the default.
-
 Finally, to set some sensible OS X preferences, run this script:
 
 ```shell
@@ -36,6 +32,14 @@ Finally, to set some sensible OS X preferences, run this script:
 
 Restart your Mac for all changes to take effect.
 
+## Terminal
+
+To make your Terminal look good at this point, double-click the
+`Solarized Dark xterm-256color.terminal` file to install the Solarized
+Dark theme. Open `Terminal > Preferences` and set this as the default.
+
+Also change the font settings to Monaco at 13pt with 1.1 line spacing.
+
 ## SSH and Git
 
 After finishing the steps above, you'll want to [generate a new SSH key](https://help.github.com/articles/generating-an-ssh-key/).
@@ -43,7 +47,7 @@ After finishing the steps above, you'll want to [generate a new SSH key](https:/
 Once that's done, [add your SSH key to GitHub](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/). Also set up remote login with
 [Brown's CS Department](https://cs.brown.edu/about/system/connecting/ssh/).
 
-Finally, for HTTPS clones of Git repositories, you'll want to [cache your password locally](https://help.github.com/articles/caching-your-github-password-in-git/).
+Also setup Brown WiFi and RISD Printing by following their respective guides.
 
 ## Atom
 
