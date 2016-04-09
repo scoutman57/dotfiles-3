@@ -1,7 +1,10 @@
 # .extra: any other commands you want to be sourced
 
 # Load Docker on start
-eval "$(docker-machine env default)"
+# UPDATE: commented out because not particularly reliable and slows down
+# Terminal start time by a lot. Better to use the Docker Quickstart Terminal.
+# docker-machine start &> /dev/null
+# eval "$(docker-machine env default)"
 
 # Load rbenv on start
 eval "$(rbenv init -)"
