@@ -21,7 +21,7 @@ alias sudo='sudo '
 alias ssh_aeleti="ssh -Y aeleti@ssh.cs.brown.edu"
 
 # Mount and unmount CS Department account using SSHFS
-mkdir -p ~/aeleti # Create directory if it doesn't exist
+mkdir -p ~/aeleti 2>/dev/null # Create directory if it doesn't exist
 alias mount_aeleti="sshfs aeleti@ssh.cs.brown.edu:/home/aeleti ~/aeleti -oping_diskarb,volname=aeleti"
 alias unmount_aeleti="umount -f ~/aeleti"
 
