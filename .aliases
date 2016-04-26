@@ -21,8 +21,9 @@ alias sudo='sudo '
 alias ssh_aeleti="ssh -Y aeleti@ssh.cs.brown.edu"
 
 # Mount and unmount CS Department account using SSHFS
+# Additional options courtesy: http://eddmann.com/posts/mounting-an-osx-ssh-volume-using-fuse-and-sshfs/
 mkdir -p ~/aeleti 2>/dev/null # Create directory if it doesn't exist
-alias mount_aeleti="sshfs aeleti@ssh.cs.brown.edu:/home/aeleti ~/aeleti -oping_diskarb,volname=aeleti"
+alias mount_aeleti="sshfs aeleti@ssh.cs.brown.edu:/home/aeleti ~/aeleti -oping_diskarb,reconnect,defer_permissions,negative_vncache,noappledouble,volname=aeleti"
 alias unmount_aeleti="umount -f ~/aeleti"
 
 # Speed up Time Machine; useful when you need to make a backup quickly
