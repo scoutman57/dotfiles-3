@@ -28,6 +28,8 @@ brew install moreutils
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
+# Install `tmux`
+brew install tmux
 
 # Install `wget` with IRI support.
 brew install wget --with-iri
