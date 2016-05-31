@@ -23,6 +23,7 @@ ln -sfv "$DOTFILES_DIR/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/.gitignore_global" ~
 ln -sfv "$DOTFILES_DIR/.hushlogin" ~
 ln -sfv "$DOTFILES_DIR/.inputrc" ~
+ln -sfv "$DOTFILES_DIR/.npmrc" ~
 ln -sfv "$DOTFILES_DIR/.path" ~
 
 # Install CLIs
