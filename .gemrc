@@ -2,4 +2,4 @@
 # Source: https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/
 
 # Disable downloading documentation for all gems by default
-gem: --no-document
+gem: --no-document --no-ri --no-rdoc
