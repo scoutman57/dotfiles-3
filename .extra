@@ -9,6 +9,3 @@ export RACK_ENV=development
 # Load nvm on start
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
-
-# Figma: create local npm modules directory
-mkdir -p ~/npm
