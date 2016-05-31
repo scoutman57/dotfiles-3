@@ -10,3 +10,6 @@ export PATH=""$(brew --prefix coreutils)/libexec/gnubin":$PATH"
 # Append Go binaries
 export PATH="$PATH:$GOPATH/bin"
 export PATH="$PATH:$GOROOT/bin"
+
+# Figma: load local npm binaries
+export PATH="$HOME/npm/bin:$PATH"
