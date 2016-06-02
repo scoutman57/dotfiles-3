@@ -29,3 +29,7 @@ alias unmount_aeleti="umount -f ~/aeleti"
 # Speed up Time Machine; useful when you need to make a backup quickly
 # Source: http://www.mackungfu.org/massively-speed-up-time-capsule-time-machine-backups
 alias speedytm="sudo sysctl debug.lowpri_throttle_enabled=0"
+
+# Figma
+alias web="cd ~/Work/web"
+alias fullscreen="cd ~/Work/fullscreen"
