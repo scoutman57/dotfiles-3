@@ -15,4 +15,4 @@ export PATH="$PATH:$GOROOT/bin"
 export PATH="$PATH:$HOME/npm/bin"
 
 # Chromium: add depot_tools to path
-export PATH="$PATH:$HOME/Work/chromium-dev/depot_tools"
+export PATH="$PATH:$HOME/Work/chromium/depot_tools"
