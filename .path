@@ -14,5 +14,5 @@ export PATH="$PATH:$GOROOT/bin"
 # Figma: load local npm binaries
 export PATH="$PATH:$HOME/npm/bin"
 
-# Chromium: add depot_tools to path
+# Append Chromium depot_tools
 export PATH="$PATH:$HOME/Work/chromium/depot_tools"

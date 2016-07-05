@@ -23,3 +23,6 @@ export PYTHONIOENCODING='UTF-8';
 # Set up Go paths
 export GOPATH=$HOME/Work/go
 export GOROOT=/usr/local/opt/go/libexec
+
+# Turn off GYP (old build system) for Chromium
+export GYP_CHROMIUM_NO_ACTION=1
