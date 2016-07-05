@@ -7,9 +7,9 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 # Prepend GNU Core Utils from brew
 export PATH=""$(brew --prefix coreutils)/libexec/gnubin":$PATH"
 
-# Prepend Go binaries
-export PATH="$GOPATH/bin:$PATH"
-export PATH="$GOROOT/bin:$PATH"
+# Append Go binaries
+export PATH="$PATH:$GOPATH/bin"
+export PATH="$PATH:$GOROOT/bin"
 
-# Prepend Chromium depot_tools
-export PATH="$HOME/Work/chromium/depot_tools:$PATH"
+# Append Chromium depot_tools
+export PATH="$PATH:$HOME/Work/chromium/depot_tools"
