@@ -22,9 +22,17 @@ alias ssh_aeleti="ssh -Y aeleti@ssh.cs.brown.edu"
 
 # Mount and unmount CS Department account using SSHFS
 # Additional options courtesy: http://eddmann.com/posts/mounting-an-osx-ssh-volume-using-fuse-and-sshfs/
+
 mkdir -p ~/aeleti 2>/dev/null # Create directory if it doesn't exist
 alias mount_aeleti="sshfs aeleti@ssh.cs.brown.edu:/home/aeleti ~/aeleti -oping_diskarb,reconnect,defer_permissions,negative_vncache,noappledouble,volname=aeleti"
 alias unmount_aeleti="umount -f ~/aeleti"
+
+# Extra steps to setup course mounting:
+#  - Create a group in System Preferences called "cs157ta"
+#  - Add yourself to this group; this deals with permissions issues
+mkdir -p ~/cs157 2>/dev/null # Create directory if it doesn't exist
+alias mount_cs157="sshfs aeleti@ssh.cs.brown.edu:/course/cs157 /Users/athyuttamre/cs157 -oping_diskarb,reconnect,defer_permissions,negative_vncache,noappledouble,volname=cs157"
+alias unmount_cs157="umount -f /Users/athyuttamre/cs157"
 
 # Speed up Time Machine; useful when you need to make a backup quickly
 # Source: http://www.mackungfu.org/massively-speed-up-time-capsule-time-machine-backups
