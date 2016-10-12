@@ -32,6 +32,7 @@ ln -sfv "$DOTFILES_DIR/.path" ~
 . "$DOTFILES_DIR/install/ruby.sh"
 . "$DOTFILES_DIR/install/python.sh"
 . "$DOTFILES_DIR/install/node.sh"
+. "$DOTFILES_DIR/install/yarn.sh"
 . "$DOTFILES_DIR/install/meteor.sh"
 . "$DOTFILES_DIR/install/heroku_toolbelt.sh"
 
