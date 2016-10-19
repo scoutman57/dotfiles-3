@@ -1,6 +1,9 @@
 # .path: prepend locations to $PATH
 # Source: @webpro
 
+# Prepend Homebrew's sbin
+export PATH="/usr/local/sbin:$PATH"
+
 # Prepend rbenv to PATH
 export PATH="$HOME/.rbenv/bin:$PATH"
 

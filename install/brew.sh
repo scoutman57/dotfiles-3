@@ -41,8 +41,5 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 brew install homebrew/php/php56 --with-gmp
 
-# Install cask to allow downloading applications
-brew tap caskroom/cask
-
 # Remove outdated versions from the cellar.
 brew cleanup
