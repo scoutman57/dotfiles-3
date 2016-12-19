@@ -28,14 +28,14 @@ alias mount_aeleti="sshfs aeleti@ssh.cs.brown.edu:/home/aeleti ~/aeleti -oping_d
 alias unmount_aeleti="umount -f ~/aeleti"
 
 # Extra steps to setup course mounting:
-#  - Create a group in System Preferences called "cs157ta"
+#  - Create a group in System Preferences called "cs138(h)ta"
 #  - Add yourself to this group; this deals with permissions issues
-mkdir -p ~/cs157 2>/dev/null # Create directory if it doesn't exist
-alias mount_cs157="sshfs aeleti@ssh.cs.brown.edu:/course/cs157 /Users/athyuttamre/cs157 -oping_diskarb,reconnect,defer_permissions,negative_vncache,noappledouble,volname=cs157"
-alias unmount_cs157="umount -f /Users/athyuttamre/cs157"
+mkdir -p ~/cs138 2>/dev/null # Create directory if it doesn't exist
+alias mount_cs138="sshfs aeleti@ssh.cs.brown.edu:/course/cs138 /Users/athyuttamre/cs138 -oping_diskarb,reconnect,defer_permissions,negative_vncache,noappledouble,volname=cs138"
+alias unmount_cs138="umount -f /Users/athyuttamre/cs138"
 
 mkdir -p ~/www 2>/dev/null
-alias mount_www="sshfs aeleti@ssh.cs.brown.edu:/pro/web/web/courses/cs157 /Users/athyuttamre/www -oping_diskarb,reconnect,defer_permissions,negative_vncache,noappledouble,volname=www"
+alias mount_www="sshfs aeleti@ssh.cs.brown.edu:/pro/web/web/courses/cs138 /Users/athyuttamre/www -oping_diskarb,reconnect,defer_permissions,negative_vncache,noappledouble,volname=www"
 alias unmount_www="umount -f /Users/athyuttamre/www"
 
 # Speed up Time Machine; useful when you need to make a backup quickly
