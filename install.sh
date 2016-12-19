@@ -32,9 +32,12 @@ ln -sfv "$DOTFILES_DIR/.path" ~
 . "$DOTFILES_DIR/install/ruby.sh"
 . "$DOTFILES_DIR/install/python.sh"
 . "$DOTFILES_DIR/install/node.sh"
+. "$DOTFILES_DIR/install/sqlite.sh"
+. "$DOTFILES_DIR/install/mongodb.sh"
+. "$DOTFILES_DIR/install/nginx.sh"
 . "$DOTFILES_DIR/install/yarn.sh"
 . "$DOTFILES_DIR/install/meteor.sh"
 . "$DOTFILES_DIR/install/heroku_toolbelt.sh"
 
 # Install Apps
-. "$DOTFILES_DIR/install/brew-cask.sh"
+. "$DOTFILES_DIR/install/brew_cask.sh"
