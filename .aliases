@@ -35,7 +35,7 @@ alias mount_cs1380="sshfs aeleti@ssh.cs.brown.edu:/course/cs1380 /Users/athyutta
 alias unmount_cs1380="umount -f /Users/athyuttamre/cs1380"
 
 mkdir -p ~/www 2>/dev/null
-alias mount_www="sshfs aeleti@ssh.cs.brown.edu:/pro/web/web/courses/cs1380 /Users/athyuttamre/www -oping_diskarb,reconnect,defer_permissions,negative_vncache,noappledouble,volname=www"
+alias mount_www="sshfs aeleti@ssh.cs.brown.edu:/pro/web/web/courses/cs138 /Users/athyuttamre/www -oping_diskarb,reconnect,defer_permissions,negative_vncache,noappledouble,volname=www"
 alias unmount_www="umount -f /Users/athyuttamre/www"
 
 # Speed up Time Machine; useful when you need to make a backup quickly
